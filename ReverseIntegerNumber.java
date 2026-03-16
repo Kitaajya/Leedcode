@@ -20,7 +20,7 @@ public class ReverseIntegerNumber {
         }
         int[] reverseStore = new int[l];
         for (int j = l - 1; j >= 0; j--) {
-            reverseStore[j] = store[j];       //这里直接把值传给reverseStore[]
+            reverseStore[j] = store[j];       //这里直接把值传给reverseStore[]，意义不大，我也不知道当时怎么想的
         }
         long answer = 0;
         int power = 0;
@@ -28,7 +28,7 @@ public class ReverseIntegerNumber {
             power = (int) Math.pow(10, l - k - 1);
             answer += (long) reverseStore[k] * power;
         }
-       // if(answer>Integer.MAX_VALUE||answer<Integer.MIN_VALUE) return 0;
+        if(answer>Integer.MAX_VALUE||answer<Integer.MIN_VALUE) return 0;
         return (int)((answer));
     }
 
