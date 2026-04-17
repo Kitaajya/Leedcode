@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class IntClassPaseIntoIntArray {
+public class IntClassParseIntoIntArray {
     public static int length(int num){
         if(num<0) return -1;
         if(num<10) return 1;
@@ -11,7 +11,7 @@ public class IntClassPaseIntoIntArray {
             if(num==0) return count;
         }
     }
-    public static int[] paseIntToArray(int num) {
+    public static int[] parseIntToArray(int num) {
         if(num<0) return new int[]{-1};
         /*
           num=5567
@@ -43,6 +43,6 @@ public class IntClassPaseIntoIntArray {
        return n;
     }
     public static void main(String[]args){
-        System.out.println(Arrays.toString(paseIntToArray(95469)));
+        System.out.println(Arrays.toString(parseIntToArray(95469)));
     }
 }
