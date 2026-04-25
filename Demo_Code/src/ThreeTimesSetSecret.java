@@ -78,6 +78,6 @@ public class ThreeTimesSetSecret {
     }
     public static void main(String[]asd){
         ThreeTimesSetSecret w=new ThreeTimesSetSecret();
-        System.out.println(Arrays.toString(w.result2(15175601727L, 2)));
+        System.out.println(Arrays.toString(w.result2(15632359787l, 2)));
     }
 }
