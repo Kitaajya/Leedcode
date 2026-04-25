@@ -78,7 +78,7 @@ public class ThreeTimesSetSecret {
     }
     public static void main(String[]asd){
         ThreeTimesSetSecret w=new ThreeTimesSetSecret();
-        System.out.println(Arrays.toString(w.result2(1517560, 2)));
+        System.out.println(Arrays.toString(w.result2(45721460, 2)));
 
     }
 }
